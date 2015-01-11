@@ -616,7 +616,7 @@ hr,
   background: #61859e;
 }
 .btn-info {
-  background: #8edcf6;
+  background: #4b92a6;
   color: white !important;
 }
 .panel-heading .btn-info {
@@ -1166,7 +1166,10 @@ ul.tag_input.focus {
   font-weight: 600;
 }
 .wallFilterPanel li a {
-  color: #555555;
+  color: white;
+}
+.wallFilterPanel li a:hover {
+  color: #555;
 }
 .wallFilterPanel .dropdown-menu li {
   margin-bottom: 0;
@@ -1178,7 +1181,7 @@ ul.tag_input.focus {
   color: #fff !important;
 }
 ul.tour-list li a {
-  color: #8edcf6;
+  color: white;
 }
 ul.tour-list li.completed a {
   color: #4f5f61;
