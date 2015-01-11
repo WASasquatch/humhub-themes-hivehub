@@ -205,13 +205,25 @@ h4 {
   font-size: 85%;
 }
 .media .media-body .module-controls a {
-  color: #8edcf6;
+  color: #2d647b;
+}
+.media .media-body .module-controls a:focus,
+.media .media-body .module-controls a:hover {
+  color: #eefaff;
 }
 .media .content a {
-  color: #8edcf6;
+  color: #2d647b;
+}
+.media .content a:focus,
+.media .content a:hover {
+  color: #eefaff;
 }
 .media .content .files a {
-  color: #555555;
+  color: #2d647b;
+}
+.media .content .files a:focus, 
+.media .content .files a:hover {
+  color: #eefaff;
 }
 .modal .dropdown-menu,
 .panel .dropdown-menu,
