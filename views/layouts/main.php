@@ -215,7 +215,9 @@
 <!-- end: show content -->
 
 <!-- start: theme watermark footer -->
-<div id="footer-content"><a href="https://github.com/WASasquatch/humhub-themes-hivehub" target="_blank">HiveHub</a> theme for HumHub by WAS</div>
+<div id="footer-content">
+	<a href="https://github.com/WASasquatch/humhub-themes-hivehub" target="_blank">HiveHub</a> theme for HumHub by WAS
+</div>
 <!-- end: theme watermark footer -->
 
 <!-- start: Modal (every lightbox will/should use this construct to show content)-->
