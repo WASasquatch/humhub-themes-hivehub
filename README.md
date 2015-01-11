@@ -1,6 +1,6 @@
 #HiveHub Theme
 ### humhub-themes-hivehub
-A elegant theme for HumHub by WAS
+A elegant theme for HumHub by WAS (Jordan S. C. Thompson)
 
 ### Installation
 
