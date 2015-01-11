@@ -1,4 +1,5 @@
-# humhub-themes-hivehub
+#HiveHub Theme
+### humhub-themes-hivehub
 A elegant theme for HumHub by WAS
 
 ### Installation
