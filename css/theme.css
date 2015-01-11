@@ -1302,3 +1302,9 @@ img.bounceIn {
   font-size: xx-small;
   color: white;
 }
+#footer-content a {
+  color: #d9e8ec;
+}
+#footer-content a:hover {
+  color: white;
+}
