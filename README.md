@@ -5,3 +5,7 @@ A elegant theme for HumHub by WAS
 ### Installation
 
 - drop into your /themes/ folder as "HiveHub"
+
+### Version & Credit
+-Version v0.0.1 Beta
+-Powered by <a href="http://humhub.org/">HumHub</a>
