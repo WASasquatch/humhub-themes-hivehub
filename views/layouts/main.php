@@ -214,7 +214,7 @@
 <?php endif; ?>
 <!-- end: show content -->
 
-<div id="footer-content">HiveHub theme for HumHub by WAS</div>
+<div id="footer-content"><a href="https://github.com/WASasquatch/humhub-themes-hivehub" target="_blank">HiveHub</a> theme for HumHub by WAS</div>
 
 
 <!-- start: Modal (every lightbox will/should use this construct to show content)-->
