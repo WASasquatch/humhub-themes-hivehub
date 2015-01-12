@@ -8,5 +8,5 @@ A elegant theme for HumHub by WAS (Jordan S. C. Thompson)
 
 ### Version & Credit
 
-- Version v0.0.1 Beta
+- Version v0.0.4 Beta
 - Powered by <a href="http://humhub.org/">HumHub</a>
