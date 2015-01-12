@@ -1323,3 +1323,8 @@ img.bounceIn {
 #footer-content a:hover {
   color: white;
 }
+@media (max-width: 767px) {
+	#footer-content {
+	  width: 100%;
+	}
+}
