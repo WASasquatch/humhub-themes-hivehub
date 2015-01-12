@@ -169,7 +169,7 @@ h4 {
 }
 .media-list li:hover,
 .media-list li.selected {
-  background-color: #E0E3E4;
+  background-color: #d8e7ec;
   border-left: 3px solid #8edcf6;
 }
 .media .time {
@@ -193,6 +193,9 @@ h4 {
 .media .media-body h4.media-heading small a {
   font-size: 11px;
   color: #666;
+}
+.media-body strong {
+  color: #555;
 }
 .media .media-body h5 {
   color: #4f5f61;
