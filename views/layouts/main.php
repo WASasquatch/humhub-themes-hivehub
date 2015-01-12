@@ -216,7 +216,22 @@
 
 <!-- start: theme watermark footer -->
 <div id="footer-content">
-	<a href="https://github.com/WASasquatch/humhub-themes-hivehub" target="_blank">HiveHub</a> theme for HumHub by WAS
+	<?php
+	
+		/* Load a theme info file */
+		$themeFile = '.'.str_replace(Yii::app()->baseUrl, '', Yii::app()->theme->baseUrl).'/theme.json';
+		
+		if (file_exists($themeFile)) {
+			 $themeJSON = file_get_contents($themeFile);
+			 $themeInfo = CJSON::decode($themeJSON);
+			 
+			 $themeName = (!empty($themeInfo['github'])) ? '<a href="'.$themeInfo['github'].' title="' . Yii::t('base', 'on GitHub') .'">'.$themeInfo['name'].'</a>' : $themeInfo['name'];	
+			 $authorName = (!empty($themeInfo['website'])) ? '<a href="'.$themeInfo['website'].'" title="' . Yii::t('base', 'Author\'s website') . '">'.$themeInfo['author'].'</a>' : $themeInfo['author'];
+			 
+			 echo '<strong>' . $themeName . '</strong> v' . $themeInfo['version'] . ' ' . Yii::t('base', 'theme by') . ' ' . $authorName . '.&nbsp; ' . $themeInfo['license'];
+		}
+	
+	?>
 </div>
 <!-- end: theme watermark footer -->
 
