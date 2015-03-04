@@ -1153,6 +1153,7 @@ table td a:hover {
   background-repeat: no-repeat;
   padding: 37px 0 0 70px;
   margin-left: 90px;
+  color: #c3c3c3;
 }
 ul.tag_input {
   -webkit-box-shadow: none;
