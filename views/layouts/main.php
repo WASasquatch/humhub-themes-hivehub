@@ -53,6 +53,15 @@
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/js/jquery.ui.widget.js?ver=<?php echo $ver; ?>"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/js/jquery.fileupload.js?ver=<?php echo $ver; ?>"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/js/jquery.color-2.1.0.min.js?ver=<?php echo $ver; ?>"></script>
+	
+	<!-- start: Theme CSS -->
+	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/datepicker.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/theme.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/flatelements.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/font/open_sans/open-sans.css" rel="stylesheet">
+	<!-- end: Theme CSS -->
+
+
 
     <!-- start: render additional head (css and js files) -->
     <?php $this->renderPartial('//layouts/head'); ?>
