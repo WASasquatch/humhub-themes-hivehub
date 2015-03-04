@@ -6,7 +6,7 @@
 	"github": "https://github.com/WASasquatch/humhub-themes-hivehub",
     "description": "A elegant and stylish CSS3 theme for HumHub.",
     "keywords": ["theme","HiveHub"],
-    "version": "0.0.4",
+    "version": "0.1.1",
     "humhub": {
         "minVersion": "0.10.0"
     },
