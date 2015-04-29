@@ -234,7 +234,7 @@
 			 $themeJSON = file_get_contents($themeFile);
 			 $themeInfo = CJSON::decode($themeJSON);
 			 
-			 $themeName = (!empty($themeInfo['github'])) ? '<a href="'.$themeInfo['github'].' title="' . Yii::t('base', 'on GitHub') .'">'.$themeInfo['name'].'</a>' : $themeInfo['name'];	
+			 $themeName = (!empty($themeInfo['github'])) ? '<a href="'.$themeInfo['github'].'" title="' . Yii::t('base', 'on GitHub') .'">'.$themeInfo['name'].'</a>' : $themeInfo['name'];	
 			 $authorName = (!empty($themeInfo['website'])) ? '<a href="'.$themeInfo['website'].'" title="' . Yii::t('base', 'Author\'s website') . '">'.$themeInfo['author'].'</a>' : $themeInfo['author'];
 			 
 			 echo '<strong>' . $themeName . '</strong> v' . $themeInfo['version'] . ' ' . Yii::t('base', 'theme by') . ' ' . $authorName . '.&nbsp; ' . $themeInfo['license'];
